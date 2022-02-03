@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="check.js"></script>
+<link rel="stylesheet" href="c.css">
+</head>
+<body>
+<form name='myform'>
+ <table>
+     <tr>
+         <td>
+              <b>Name:</b>
+         </td>
+         <td>
+              <input type='text' name='name'>
+         </td>
+     </tr>
+     <tr>
+         <td>
+             <b>Address:</b>
+         </td>
+         <td>
+             <input type='text' name='Address'>
+         </td>
+   </tr>
+   <tr>
+         <td>
+             <b>E-mail:</b>
+         </td>
+         <td>
+             <input type='text' name='EMail'>
+         </td>
+   </tr>
+   <tr>
+         <td>
+             <b>Password:</b>
+         </td>
+         <td>
+             <input type='text' name='Password'>
+         </td>
+    </tr>
+    <tr>
+         <td>
+             <b>Telephone:</b>
+         </td>
+         <td>
+              <input type='text' name='Telephone'>
+         </td>
+     </tr>
+      <tr>
+          <td>
+              <b>Select Your Course:</b>
+          </td>
+          <td>
+              <select type='text' name='Subject'>
+			<option>BTECH</option>
+			<option>BBA</option>
+			<option>BCA</option>
+			<option>B.COM</option>
+			
+		     </select>
+         </td>
+    </tr>
+    <tr>
+         <td>
+             <b>Comments:</b>    
+         </td>
+         <td>     
+               <textarea cols="55" name='Comment'> </textarea>
+         </td>
+    </tr>
+    <tr>
+         <td>
+             <input type='submit' onclick='check();return false'>
+          </td>
+    </tr>
+    <tr>
+        <td>
+           <input type='reset' onclick='myFunction()' value="Reset">
+        </td>
+    </tr>
+  </table>
+
+<script>
+function myFunction() 
+   {
+      document.getElementById('myform').reset();
+  }
+</script>
+
+
+
+
+
+
+
+</form>
+</body>
+<p id='f1'></p>
+<p id='f2'></p>
+<p id='f3'></p>
+<p id='f4'></p>
+<p id='f5'></p>
+<p id='f6'></p>
+<p id='f7'></p>
+</html>
